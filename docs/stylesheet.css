@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?'family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    margin: 200 px auto;
+    width: 100vd;
+    height: 100vh;
+    background-image:url("um.jpg");
+    background-size:cover;
+    background-position:center;
+}
+body {
+    font-family: helvetica;
+    font-size: 18px;
+  }
+  
+  .container {
+    /* margin: 200px auto; */
+    padding: 100px auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quote-box {
+    border: 2px solid #ddd;
+    padding: 30px 20px;
+    margin-bottom: 50px;
+  }
+  #quote {
+    color: white;
+    text-align: center;
+  }
+  #author {
+    float: right;
+    color:wheat;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  #btn {
+    align-self: center;
+    border: 2px solid rgb(51, 45, 45);
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #btn:focus {
+    outline: none;
+  }
